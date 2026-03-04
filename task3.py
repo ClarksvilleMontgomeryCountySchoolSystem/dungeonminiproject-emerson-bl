@@ -1,11 +1,7 @@
 print("You're in the corridor now. Somewhere ahead, a guard is patrolling.")
-guard_awake = True
-if guard_awake:
-    Shadow = ("Be careful...he's awake."
-    print(Shadow)
-    outcome = ("You were able to be quiet. You may contuine."
+guard_awake = False
+if not guard_awake:
+    outcome = 'Shadow:' "Be careful...he's asleep. You were able to be quiet. You may continue"
 else:
-    Doom = ("You were not quiet.")
-    print(Doom)
-    outcome = ("You are dead")
+    outcome = 'Doom:' "Be careful...he's awake. You were not quiet. You are dead"
 print(outcome)
