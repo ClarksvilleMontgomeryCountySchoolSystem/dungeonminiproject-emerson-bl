@@ -5,3 +5,5 @@ if not drawbridge_raised:
 else:
     outcome = 'Doom' "The drawbridge seems to be lowereed. The gaurd soon catches you. You are dead"
 print(outcome)
+
+
